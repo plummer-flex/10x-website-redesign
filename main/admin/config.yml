@@ -1,0 +1,95 @@
+backend:
+  name: github
+  repo: plummer-flex/10x-website-redesign
+  base_url: https://github.com
+  branch: content
+
+media_folder: public/images
+public_folder: /images
+publish_mode: editorial_workflow
+
+collections:
+  - name: settings
+    extension: json
+    publish: false
+    label: Site Settings
+    label_singular: Site Settings
+    folder: public/settings
+    create: false
+    delete: false
+    preview_path: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Description
+        name: description
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - name: searchgov
+        label: Search.gov Settings
+        widget: object
+        fields:
+          - name: endpoint
+            label: Endpoint
+            widget: string
+          - name: affiliate
+            label: Affiliate
+            widget: string
+          - name: access_key
+            label: Access Key
+            widget: string
+          - name: inline
+            label: inline
+            widget: boolean
+            default: true
+  - name: menu
+    extension: json
+    label: Menus
+    label_singular: Menu
+    folder: public/settings/menu
+    create: true
+    delete: true
+    editor:
+      preview: false
+    fields:
+      - name: name
+        label: Name
+        widget: string
+      - name: items
+        label: Items
+        widget: list
+        fields:
+          - label: Text
+            name: text
+            widget: string
+          - label: Link
+            name: link
+            widget: string
+          - label: Items
+            name: items
+            widget: list
+            fields:
+              - label: Text
+                name: text
+                widget: string
+              - label: Link
+                name: link
+                widget: string
+  - name: page
+    extension: json
+    label: Pages
+    label_singular: Page
+    folder: public/content/page
+    create: true
+    delete: true
+    preview_path: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

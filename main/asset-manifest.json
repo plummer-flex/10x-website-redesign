@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/10x-website-redesign/main/static/css/main.e5c3a32f.chunk.css",
+    "main.js": "/10x-website-redesign/main/static/js/main.d17626b6.chunk.js",
+    "main.js.map": "/10x-website-redesign/main/static/js/main.d17626b6.chunk.js.map",
+    "runtime-main.js": "/10x-website-redesign/main/static/js/runtime-main.06340a99.js",
+    "runtime-main.js.map": "/10x-website-redesign/main/static/js/runtime-main.06340a99.js.map",
+    "static/js/2.2babfc28.chunk.js": "/10x-website-redesign/main/static/js/2.2babfc28.chunk.js",
+    "static/js/2.2babfc28.chunk.js.map": "/10x-website-redesign/main/static/js/2.2babfc28.chunk.js.map",
+    "index.html": "/10x-website-redesign/main/index.html",
+    "precache-manifest.b1e068c30404b562989e6a6870be6726.js": "/10x-website-redesign/main/precache-manifest.b1e068c30404b562989e6a6870be6726.js",
+    "service-worker.js": "/10x-website-redesign/main/service-worker.js",
+    "static/css/main.e5c3a32f.chunk.css.map": "/10x-website-redesign/main/static/css/main.e5c3a32f.chunk.css.map",
+    "static/js/2.2babfc28.chunk.js.LICENSE.txt": "/10x-website-redesign/main/static/js/2.2babfc28.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/10x-website-redesign/main/static/media/youtube15.9d356b3b.svg",
+    "static/media/logo.svg": "/10x-website-redesign/main/static/media/logo.5047b988.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06340a99.js",
+    "static/js/2.2babfc28.chunk.js",
+    "static/css/main.e5c3a32f.chunk.css",
+    "static/js/main.d17626b6.chunk.js"
+  ]
+}
